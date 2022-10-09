@@ -5,3 +5,4 @@ venv
 GCP_bucket.py
 dist
 *.egg-info
+build
