@@ -6,3 +6,4 @@ GCP_bucket.py
 dist
 *.egg-info
 build
+deploy_instructions.txt

@@ -1,3 +1,32 @@
 [build-system]
-requires = ["setuptools>=54", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "rowan_ds_tools"
+version = "0.1.1"
+authors = [
+  { name="Rowan Mankoo", email="rowan.mankoo@gmail.com" },
+]
+description = "A suite of commonly used DS functions/classes"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  "numpy==1.23.3",
+  "pandas==1.4.3",
+  "protobuf==4.21.7",
+  "pytest==6.2.4",
+  "scipy==1.9.2",
+  "SQLAlchemy==1.4.22",
+  "google-cloud==0.34.0",
+  "google-cloud-storage==2.5.0",
+  "psycopg2-binary==2.9.4"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/RowanMankoo/rowan_ds_tools"
