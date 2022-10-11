@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rowan_ds_tools"
-version = "0.1.1"
+version = "0.12"
 authors = [
   { name="Rowan Mankoo", email="rowan.mankoo@gmail.com" },
 ]
@@ -25,7 +25,8 @@ dependencies = [
   "SQLAlchemy==1.4.22",
   "google-cloud==0.34.0",
   "google-cloud-storage==2.5.0",
-  "psycopg2-binary==2.9.4"
+  "psycopg2-binary==2.9.4",
+  "matplotlib==3.6.1"
 ]
 
 [project.urls]
