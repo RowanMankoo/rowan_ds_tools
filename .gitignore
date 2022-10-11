@@ -2,7 +2,6 @@ __pycache__
 .DS_store
 *.log 
 venv
-GCP_bucket.py
 dist
 *.egg-info
 build
