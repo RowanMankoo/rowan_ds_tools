@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rowan_ds_tools"
-version = "0.12"
+version = "0.13"
 authors = [
   { name="Rowan Mankoo", email="rowan.mankoo@gmail.com" },
 ]
