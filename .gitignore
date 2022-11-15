@@ -6,3 +6,4 @@ dist
 *.egg-info
 build
 deploy_instructions.txt
+data/
